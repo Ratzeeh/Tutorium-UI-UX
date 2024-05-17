@@ -20,6 +20,11 @@ public class MenuControll : MonoBehaviour
         Application.Quit();
     }
 
+    public void StartButton()
+    {
+        // SceneManager.sceneLoaded("");
+    }
+
     public void SetVolume(float volume)
     {
         AudioListener.volume = volume;
